@@ -1,0 +1,36 @@
+{{ "<!-- senzaparole Modals -->" | safeHTML }}
+{{ range .Site.Data.senzaparole }}
+  <div class="portfolio-modal modal fade" id="senzaparoleModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content light">
+      <!-- <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="senzaparole modal-body">
+              <h2>{{ .title  | markdownify }}</h2>
+              <!-- <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p> -->
+              <p>{{ .description | markdownify }}</p>
+              {{ $url := printf "img/senzaparole/%s" .img }}
+              <div class="modal-img-frame">
+              <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
+              </div>
+              <ul class="list-inline">
+                <!-- <li>{{ with $.Site.Params.senzaparole.modal.date }}{{ . }}{{ end }}: {{ .date }}</li> -->
+                <li>{{ with $.Site.Params.senzaparole.modal.etimo }}{{ . | markdownify }}{{ end }}: {{ .etimo }}</li>
+                <li><a href="{{ .sitePost }}">{{ with $.Site.Params.senzaparole.modal.sitePost }}{{ . | markdownify }}{{ end }}</a></li>
+                <li><a href="{{ .video }}">{{ with $.Site.Params.senzaparole.modal.video }}{{ . | markdownify }}{{ end }}</a></li>
+                <!-- <li>{{ with $.Site.Params.senzaparole.modal.category }}{{ . }}{{ end }}: {{ .category  | markdownify }}</li> -->
+              </ul>
+              <button type="button" class="btn btn-primary" id="close_btn" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.senzaparole.modal.buttonText }}{{ . }}{{ end }}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

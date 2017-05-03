@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on Vision - FlowIn.Space</title>
+    <link>./categories/misc/</link>
+    <description>Recent content in Misc on Vision - FlowIn.Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Thu, 05 Nov 2015 16:58:58 -0500</lastBuildDate>
+    
+	<atom:link href="./categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>./home/</link>
+      <pubDate>Thu, 05 Nov 2015 16:58:58 -0500</pubDate>
+      
+      <guid>./home/</guid>
+      <description>Hello and welcome to my site!
+A Bit About Me I like alpacas and I&amp;rsquo;m a fan of static sites.</description>
+    </item>
+    
+  </channel>
+</rss>
