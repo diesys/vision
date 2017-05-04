@@ -272,6 +272,11 @@ She worked at Pied Piper for years until they went belly up."""
       link = "http://gohugo.io/"
 
     [[params.footer.quicklinks]]
-      tag = "theme"
+      tag = "theme (base)"
       text = "agency"
       link = "http://themes.gohugo.io/theme/agency/"
+
+    [[params.footer.quicklinks]]
+      tag = "source code"
+      text = "vision"
+      link = "https://git.eigenlab.org/sbiego/vision-hugo"
