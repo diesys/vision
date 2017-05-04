@@ -543,6 +543,9 @@ section h3.section-subheading {
 .img-centered {
    max-width: 100%;
 }
+.portfolio-modal .modal-content p {
+  line-height: 1.6em;
+}
 
 .portfolio-modal .modal-content img {
    /*box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.4);*/
@@ -594,6 +597,7 @@ section h3.section-subheading {
   }
   .portfolio-modal .modal-content p {
     margin: 10px 24px;
+    line-height: 1.5em;
   }
 }
 
