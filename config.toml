@@ -137,7 +137,7 @@ languageCode = "it-IT"
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Senza Parole"
-    # subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Le parole, che ci parlano dell'animo - soprattutto ad esso - cercano di prendere forma attraverso queste illustrazioni, che non cercano di descriverne il significato ma sono frutto delle sensazioni e dei loro influssi. Dove l'immaginazione inizia. Dove le parole non arrivano."
 
     [params.senzaparole.modal]
       client = "Per"
