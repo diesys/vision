@@ -20,7 +20,7 @@
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
               </div>
               <ul class="list-inline">
-                <!-- <li>{{ with $.Site.Params.senzaparole.modal.date }}{{ . }}{{ end }}: {{ .date }}</li> -->
+                <li>{{ with $.Site.Params.senzaparole.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
                 <li>{{ with $.Site.Params.senzaparole.modal.etimo }}{{ . | markdownify }}{{ end }}: {{ .etimo }}</li>
                 <li><a href="{{ .sitePost }}">{{ with $.Site.Params.senzaparole.modal.sitePost }}{{ . | markdownify }}{{ end }}</a></li>
                 <li><a href="{{ .video }}">{{ with $.Site.Params.senzaparole.modal.video }}{{ . | markdownify }}{{ end }}</a></li>
