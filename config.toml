@@ -79,7 +79,7 @@ languageCode = "it-IT"
     enable = true
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "creazioni intuitive"
+    title = "fluid digital art"
     subtitle = ".vision"
     buttonText = "esplora"
 
