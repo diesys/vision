@@ -94,6 +94,12 @@ languageCode = "it-IT"
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
+      img = "SenzaParole_19_5_17_exploit.png"
+      date = "19 - 25 maggio 2017"
+      title = "[Senza parole @exploit](https://www.facebook.com/events/1951071915122550)"
+      description = "Seconda mostra della serie di illustrazioni _[Senza Parole](SenzaParole/)_ ad [exploit](https://exploitpisa.org) con musica.<br><br>_illustrazioni esposte: Lutalica, Silience, Sonder, Specious Present, Wabi-Sabi, Wanderlust._"
+
+    [[params.about.events]]
       img = "SenzaParole_7_4_16_exploit.jpg"
       date = "7 aprile 2016"
       title = "[Senza parole @exploit](https://www.facebook.com/events/1592724811018450)"
