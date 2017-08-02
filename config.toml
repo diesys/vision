@@ -94,7 +94,7 @@ languageCode = "it-IT"
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1113-08-17_FaroScoglitti_icon.png"
+      img = "SenzaParole_1113_08_17_FaroScoglitti.png"
       date = "11-13 agosto 2017"
       title = "[Senza parole al Faro di Scoglitti](https://www.facebook.com/events/397455927335551)"
       description = "Terza mostra della serie di illustrazioni, prima in Sicilia. Orari: 9:30 - 13:00 e 17:00 - 23:59"
