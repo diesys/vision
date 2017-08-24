@@ -14,7 +14,11 @@
             <div class="senzaparole modal-body">
               <h2>{{ .title  | markdownify }}</h2>
               <!-- <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p> -->
-              <p>{{ .description | markdownify }}</p>
+
+              <div class="lang_select"></div>
+
+              <p class="desc" id="desc_en">{{ .description }}</p>
+              <p class="desc" id="desc_it">{{ .descriptionIT }}</p>
               {{ $url := printf "img/senzaparole/%s" .img }}
               <div class="modal-img-frame">
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
