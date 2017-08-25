@@ -22,7 +22,7 @@ languageCode = "it-IT"
 
   # Link custom assets relative to /static
   custom_css = ['css/vision.css']
-  custom_js  = [] #js/pointer_glow.js
+  custom_js  = ['js/vision.js'] #js/pointer_glow.js
   favicon    = "favicon.png"
 
   # Possibility to disable external/additional fonts
