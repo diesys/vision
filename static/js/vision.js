@@ -6,12 +6,12 @@ function toggleLang() {
 
    for (var i = 0; i < elementsIT.length; i++) {
      if (stateIT == "none") {
-       elementsLN[i].className = "lang_select it";
+       elementsLN[i].className = "lang_select en";
        elementsIT[i].style.display = "block";
        elementsEN[i].style.display = "none";
      }
      else {
-       elementsLN[i].className = "lang_select en";
+       elementsLN[i].className = "lang_select it";
        elementsIT[i].style.display = "none";
        elementsEN[i].style.display = "block ";
      }
