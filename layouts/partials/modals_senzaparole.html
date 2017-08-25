@@ -15,29 +15,10 @@
               <h2>{{ .title  | markdownify }}</h2>
               <!-- <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p> -->
 
-              <script>
-                function changeLang() {
-                   desc_it = document.getElementById("desc_it");
-                   desc_en = document.getElementById("desc_en");
-                   lan_sel = document.getElementById("lang_select");
+              <div id="lang_select" onclick="toggleLang()"></div>
 
-                   if (desc_it.style.display == "none") {
-                     desc_it.style.display = "block";
-                     desc_en.style.display = "none";
-                     lan_sel.style.backgroundImage = 'url(../img/flagit.png)';
-                   }
-                   else {
-                     desc_it.style.display = "none";
-                     desc_en.style.display = "block";
-                     lan_sel.style.backgroundImage = 'url(../img/flaguk.png)';
-                   }
-                }
-              </script>
-
-              <div id="lang_select" onclick="changeLang()"></div>
-
-              <p class="desc" id="desc_en">{{ .description }}</p>
-              <p class="desc" id="desc_it">{{ .descriptionIT }}</p>
+              <p class="desc_en" id="desc_en">{{ .description }}</p>
+              <p class="desc_it" id="desc_it">{{ .descriptionIT }}</p>
               {{ $url := printf "img/senzaparole/%s" .img }}
               <div class="modal-img-frame">
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">

@@ -568,32 +568,37 @@ section h3.section-subheading {
 .portfolio-modal .modal-content h2 {
   animation: appearSoftFromTop .6s;
 }
-.senzaparole #desc_it {
-
+.desc_it {
+  display: block;
 }
-.senzaparole #desc_en {
+.desc_en {
   display: none;
 }
-.senzaparole #lang_select {
+#lang_select {
   height: 24px;
   width: 24px;
-  background-image: url("../img/flagit.png");
+  background-image: url("../img/flaguk.png");
   background-size: cover;
+  background-color: transparent;
+  content: '';
+  text-decoration: none;
   border-radius: 15px;
-  position: absolute;
-  right: 2px;
-  top: 16px;
+  position: fixed;
+  right: 0;
+  margin: 22px;
+  top: 46px;
+  border: none;
   box-shadow: 0 2px 10px -3px rgba(0, 0, 0, 0.6);
   transition: all .3s;
   cursor: pointer;
 
-  display: none;
+  /*display: none;*/
 }
-.senzaparole #lang_select:hover {
+#lang_select:hover {
   box-shadow: 0 2px 8px -1px rgba(0, 0, 0, 0.3);
   transform: translateY(2px);
 }
-.senzaparole #lang_select:active {
+#lang_select:active {
   transform: translateY(5px);
 }
 .portfolio-modal .modal-content img {
