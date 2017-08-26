@@ -86,7 +86,7 @@ languageCode = "it-IT"
   # About section
   [params.about]
     enable = true
-    title = "Point of Vision"
+    title = "Il progetto"
     subtitle = "La visione è intuito puro, mezzo che libera la nostra creatività e dà forma alle idee che lo hanno risvegliato. Le nostre esperienze, quelle di persone che incrociamo, con cui abbiamo relazioni di ogni genere, ci cambiano, tolgono, danno. Siamo sotto continuo stimolo e tutto ciò ci muta inevitabilmente. Il nostro punto di vista diventa sempre più soggettivo, personale, sempre più sfaccettato e complesso, incoerente e pieno di significato. Per questo la necessità di raccontare, comunicare, suscitare qualcosa negli occhi di chi guarda qualcosa che viene da una visione, da un altro punto di vista, o meglio, punto di visione, personale: da qui nasce .vision, una visione di parte che si manifesta come ideale nell'idea."
     endpoint = "2016"
 

@@ -135,6 +135,10 @@ section.bg-darkest-gray {
 
 /* === NAVBAR === */
 
+.navbar-fixed-bottom, .navbar-fixed-top {
+  padding: 20px;
+}
+
 .navbar-default {
    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
    transition: all .2s;
@@ -164,9 +168,10 @@ section.bg-darkest-gray {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:active,
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-   color: #fff;
+   /*color: #fff;*/
+   color: #4CEDB8;
    transition: all .4s;
-   text-shadow: 0 0 10px #4CEDB8;
+   text-shadow: 0 0 25px #4CEDB8;
    background-color: transparent;
 }
 
@@ -176,13 +181,16 @@ section.bg-darkest-gray {
 @media (min-width: 768px) {
    .navbar-default.navbar-shrink {
       padding: 0 0 10px 0;
-      box-shadow: 0 1px 30px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 -1px 20px rgba(0, 0, 0, 0.7);
       background-color: transparent;
       background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .7));
    }
 }
 
 @media screen and (max-width:767px) {
+   .navbar-fixed-bottom, .navbar-fixed-top {
+      padding: 0px;
+   }
    .navbar-default {
       background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8));
       padding-bottom: 10px;
@@ -242,8 +250,8 @@ header {
 }
 
 header .intro-text {
-   padding-top: 27%;
-   padding-bottom: 50px;
+   padding-top: 17%;
+   padding-bottom: 40px;
    /*margin-bottom: 150px;*/
 }
 
@@ -251,7 +259,8 @@ header .intro-text .intro-heading {
    font-size: 70px;
    text-shadow: 0 0 40px rgba(0, 0, 0, .65);
    animation: appearFromLeft 1.2s cubic-bezier(0,.46,.45,1.15);
-   margin-bottom: 15px;
+   margin-bottom: 10px;
+   margin-top: 40px;
 }
 
 header .intro-text .intro-lead-in {
@@ -268,8 +277,8 @@ header .intro-text .intro-lead-in {
 
 @media screen and (max-width:767px) {
    header .intro-text {
-      padding-top: 50%;
-      padding-bottom: 50px;
+      padding-top: 35%;
+      padding-bottom: 80px;
    }
 }
 
@@ -310,7 +319,7 @@ header .intro-text .intro-lead-in {
    padding: 12px 24px;
    font-size: 16px;
    animation: appearFromBottom .8s cubic-bezier(.07,.4,.67,1.09);
-   margin-top: 13%;
+   margin-top: 10%;
 }
 
 .btn-xl:hover, .btn-xl:active {
@@ -321,7 +330,7 @@ header .intro-text .intro-lead-in {
 /* === SECTION === */
 
 section {
-  padding: 80px 20px;
+  padding: 90px 20px;
 }
 
 section h2.section-heading {
@@ -370,15 +379,15 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item,
 #SenzaParole .portfolio-item {
-    right: 0;
+    /*right: 0;*/
+    left: 10px;
     margin: 15px;
     box-shadow: 0 3px 30px -5px rgba(0, 0, 0, 1);
     padding: 0;
-    margin-left: 15px;
-    margin-right: 15px;
-    max-width: calc(30% - 5px);
+    max-width: calc(30% - 12px);
     transition: all .3s;
     animation: grow .9s;
+    /*animation: appearSoftFromTop .5s;*/
 }
 
 #portfolio .portfolio-item .portfolio-link,
@@ -436,7 +445,7 @@ section h3.section-subheading {
 #SenzaParole .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 15px;
-    max-width: 400px;
+    /*max-width: 400px;*/
     text-align: center;
     background-color: #fff;
     /*box-shadow: 0 8px 12px -10px rgba(0, 0, 0, 0.4);*/
@@ -507,19 +516,20 @@ section h3.section-subheading {
 @media (min-width: 992px) {
   #portfolio .col-md-4,
   #SenzaParole .col-md-4 {
-    width: calc(33% - 30px);
+    /*width: calc(33% - 30px);*/
+    width: calc(30% - 10px);
   }
 }
 @media (max-width: 768px) {
   #portfolio .portfolio-item,
   #SenzaParole .portfolio-item {
-    left: 40px;
+    left: 20px;
     /*transform: translateX(-50%);*/
     /*width: auto;*/
     margin-left: 13px;
     margin-right: 13px;
     margin-bottom: 13px;
-    max-width: calc(40% - 5px);
+    max-width: calc(45% - 25px);
     display: inline-block;
     /*box-shadow: none;*/
     box-shadow: 0 3px 30px -5px rgba(0, 0, 0, 1);
@@ -528,6 +538,17 @@ section h3.section-subheading {
   #portfolio .portfolio-item .portfolio-caption,
   #SenzaParole .portfolio-item .portfolio-caption {
     box-shadow: 0 0 15px -6px #000;
+  }
+
+  section {
+    padding: 40px 5px;
+  }
+  section h2.section-heading {
+    padding: 10px;
+  }
+  section h3.section-subheading {
+     padding: 0 15px;
+     margin: 20px 0 40px 0;
   }
 }
 
@@ -562,10 +583,11 @@ section h3.section-subheading {
 }
 .modal-body {
   top: -20px;
-  margin: 0 35px 25px 35px;
+  margin: 0 35px;
+  padding-bottom: 0;
 }
 .portfolio-modal .modal-content {
-  padding: 40px 40px;
+  padding: 40px 40px 10px 40px;
   /*dark*/
   background-color: #e9e9e9;
   background-image: url('../img/texture.png');
@@ -581,9 +603,11 @@ section h3.section-subheading {
 .portfolio-modal .modal-content p {
   line-height: 1.6em;
   animation: appearSoftFromTop .6s;
+  margin-bottom: 50px;
 }
 .portfolio-modal .modal-content h2 {
   animation: appearSoftFromTop .6s;
+  margin-bottom: 25px;
 }
 .desc_it {
   display: block;
@@ -630,7 +654,7 @@ section h3.section-subheading {
 }
 .portfolio-modal .modal-content img {
    /*box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.4);*/
-   box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.5);
+   box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.5);
    /*left: 50%;*/
    margin: 0;
    margin-left: 0px;
@@ -650,6 +674,10 @@ section h3.section-subheading {
 }
 .portfolio-modal .modal-content h2 {
   /*color: #114d39;*/
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
@@ -713,8 +741,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 /*=== FOOTER ===*/
 footer {
-  padding-bottom: 0px;
-  padding-top: 80px;
+  padding: 80px 0 0 0;
 }
 footer div.row.credits {
   background-color: #ddd;
@@ -733,4 +760,7 @@ footer div#credits {
 }
 footer div#credits ul li {
   display: inline-block;
+}
+footer div.col-lg-12 {
+  margin: 0 15px;
 }
