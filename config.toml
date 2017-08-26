@@ -96,19 +96,19 @@ languageCode = "it-IT"
     [[params.about.events]]
       img = "SenzaParole_1113_08_17_FaroScoglitti.png"
       date = "11-13 agosto 2017"
-      title = "[Senza parole al Faro di Scoglitti](https://www.facebook.com/events/397455927335551)"
-      description = "Terza mostra della serie di illustrazioni, prima in Sicilia. Orari: 9:30 - 13:00 e 17:00 - 23:59"
+      title = "[Senza parole al piccolo Museo del Mare Faro - Scoglitti](https://www.facebook.com/events/397455927335551)"
+      description = "Terza mostra della serie di illustrazioni, prima in Sicilia."
 
     [[params.about.events]]
       img = "SenzaParole_19_5_17_exploit.png"
       date = "19 - 25 maggio 2017"
-      title = "[Senza parole @exploit](https://www.facebook.com/events/1951071915122550)"
-      description = "Seconda mostra della serie di illustrazioni _[Senza Parole](SenzaParole/)_ ad [exploit](https://exploitpisa.org) con musica.<!-- <br><br>_illustrazioni esposte: Lutalica, Silience, Sonder, Specious Present, Wabi-Sabi, Wanderlust._ -->"
+      title = "[Senza parole @exploit - Pisa](https://www.facebook.com/events/1951071915122550)"
+      description = "Seconda mostra della serie di illustrazioni _[Senza Parole](SenzaParole/)_ ad [exploit](https://exploitpisa.org) con musica."
 
     [[params.about.events]]
       img = "SenzaParole_7_4_16_exploit.jpg"
       date = "7 aprile 2016"
-      title = "[Senza parole @exploit](https://www.facebook.com/events/1592724811018450)"
+      title = "[Senza parole @exploit - Pisa](https://www.facebook.com/events/1592724811018450)"
       description = "Prima mostra della serie di illustrazioni _[Senza Parole](SenzaParole/)_ ad [exploit](https://exploitpisa.org) con aperitivo e concerto di [Lorenzo Niccolini](https://www.facebook.com/circolo.pisano)."
 
 
