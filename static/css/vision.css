@@ -320,12 +320,19 @@ header .intro-text .intro-lead-in {
 
 /* === SECTION === */
 
+section {
+  padding: 80px 20px;
+}
+
+section h2.section-heading {
+  margin-bottom: 35px;
+}
 section h3.section-subheading {
    text-align: justify;
    /*border-top: 1px dashed #333;*/
    line-height: 1.5em;
    padding: 0 15px;
-   margin: 20px 30px 25px 30px;
+   margin: 20px 30px 40px 30px;
 }
 
 
