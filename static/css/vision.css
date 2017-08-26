@@ -330,7 +330,8 @@ header .intro-text .intro-lead-in {
 /* === SECTION === */
 
 section {
-  padding: 90px 20px;
+  padding: 90px 10%;
+  transition: all .3s;
 }
 
 section h2.section-heading {
@@ -344,6 +345,24 @@ section h3.section-subheading {
    margin: 20px 30px 40px 30px;
 }
 
+@media (max-width: 768px) {
+  section {
+    padding: 50px 5%;
+    transition: all .3s;
+  }
+  section h2.section-heading {
+    padding: 10px;
+  }
+  section h3.section-subheading {
+     padding: 0 15px;
+     margin: 20px 0 40px 0;
+  }
+}
+@media (max-width: 500px) {
+    section {
+      padding: 40px 5px;
+    }
+}
 
 /* === ABOUT === */
 
@@ -538,17 +557,6 @@ section h3.section-subheading {
   #portfolio .portfolio-item .portfolio-caption,
   #SenzaParole .portfolio-item .portfolio-caption {
     box-shadow: 0 0 15px -6px #000;
-  }
-
-  section {
-    padding: 40px 5px;
-  }
-  section h2.section-heading {
-    padding: 10px;
-  }
-  section h3.section-subheading {
-     padding: 0 15px;
-     margin: 20px 0 40px 0;
   }
 }
 
