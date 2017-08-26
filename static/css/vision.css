@@ -344,7 +344,8 @@ header div.intro-text.bgWritings div.intro-lead-in {
 }
 
 div.bgWritings .btn-xl {
-  margin-top: 30%;
+  /*margin-top: 100px;*/
+  visibility: hidden;
 }
 
 /* === SECTION === */
