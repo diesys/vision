@@ -255,6 +255,10 @@ header .intro-text {
    /*margin-bottom: 150px;*/
 }
 
+header div.intro-text.bgWritings {
+  padding-top: 5%;
+}
+
 header .intro-text .intro-heading {
    font-size: 70px;
    text-shadow: 0 0 40px rgba(0, 0, 0, .65);
@@ -263,16 +267,29 @@ header .intro-text .intro-heading {
    margin-top: 40px;
 }
 
+header div.intro-text.bgWritings div.intro-heading {
+  /* for vision shape light background */
+  animation: none;
+  visibility: hidden;
+}
+
 header .intro-text .intro-lead-in {
    text-shadow: 0 1px 8px rgba(0, 0, 0, .74);
-   animation: appearFromRight 1.2s cubic-bezier(0,.46,.45,1.15);
    font-size: 22px;
    position: relative;
    margin-bottom: 0;
    /*color: rgba(0,0,0,.7);*/
    color: rgba(255,255,255,.9);
    transition: all .3s;
+   animation: appearFromRight 1.2s cubic-bezier(0,.46,.45,1.15);
 }
+
+header div.intro-text.bgWritings div.intro-lead-in {
+    /* for vision shape light background */
+    animation: none;
+    visibility: hidden;
+}
+
 /*HEADER MOBILE*/
 
 @media screen and (max-width:767px) {
@@ -326,6 +343,9 @@ header .intro-text .intro-lead-in {
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
+div.bgWritings .btn-xl {
+  margin-top: 30%;
+}
 
 /* === SECTION === */
 
