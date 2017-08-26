@@ -1,6 +1,6 @@
 # Site settings
 title = "Vision - FlowIn.Space"
-baseurl = "."
+baseurl = "http://flowin.space/vision"
 theme = "hugo-agency-theme"
 languageCode = "it-IT"
 
