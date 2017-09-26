@@ -20,6 +20,11 @@ a:hover, a:active, a:focus {
    color: #111;
 }
 
+::-moz-selection { /* Code for Firefox */
+    background-color: #4CEDB8;
+    color: #111;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 100px 0;
