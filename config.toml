@@ -88,28 +88,46 @@ languageCode = "it-IT"
     enable = true
     title = "L'idea"
     subtitle = "La visione è intuito puro, mezzo che libera la nostra creatività e dà forma alle idee che lo hanno risvegliato, da qui nasce _.vision_: un progetto di Diego Turtulici. Le nostre esperienze, quelle di persone che incrociamo, con cui abbiamo relazioni di ogni genere, ci cambiano, tolgono, danno. Siamo sotto continuo stimolo e tutto ciò ci muta inevitabilmente. Il nostro punto di vista diventa sempre più soggettivo, personale, sempre più sfaccettato e complesso, incoerente e pieno di significato. Per questo la necessità di raccontare, comunicare, suscitare qualcosa negli occhi di chi guarda qualcosa che viene da una visione, da un altro punto di vista, o meglio, punto di visione, personale: da qui nasce .vision, una visione di parte che si manifesta come ideale nell'idea."
-    subtitleEN = "Visions are pure intuitions, means which frees your creativity and shapes the ideas that reawaken your intuitions, here it is born .vision: a Diego Turtulici's project. Our life experiences, those of the ones we cross, with whom we have some sort of relationship, they change, take and give us. We are continuously stirring and that changes us, inevitably. Out point of view becomes more and more subjective, personal, multifaceted and complex, incoherent and rich of meaning. So there's the need to tell, comunicate, arouse something in viewers' eyes, something that came from a vision, a point of view, a point of vision: .vision, a personal perspective which manifests itself as ideal in the idea."
+    # subtitleEN = "Visions are pure intuitions, means which frees your creativity and shapes the ideas that reawaken your intuitions, here it is born .vision: a Diego Turtulici's project. Our life experiences, those of the ones we cross, with whom we have some sort of relationship, they change, take and give us. We are continuously stirring and that changes us, inevitably. Out point of view becomes more and more subjective, personal, multifaceted and complex, incoherent and rich of meaning. So there's the need to tell, comunicate, arouse something in viewers' eyes, something that came from a vision, a point of view, a point of vision: .vision, a personal perspective which manifests itself as ideal in the idea."
     endpoint = "2016"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
+      img = "SenzaParole_29_6_18_serafini.jpg"
+      date = "29 giugno 2018"
+      title = "[Arte in Università](https://www.facebook.com/events/397455927335551)"
+      description = "_SenzaParole_ alla XI edizione di _Arte in Università_ dell'[aula R](https://aulaerre.noblogs.org) in via Serafini, Pisa."
+
+    [[params.about.events]]
+      img = "SenzaParole_17_6_18_nicaragua.jpg"
+      date = "17 giugno 2018"
+      title = "[Nicaragua](https://www.facebook.com/events/397455927335551)"
+      description = "Mostra _SenzaParole_ al mercatino Nicaragua di Livorno con [eigenLab](https://eigenlab.org)."
+
+    [[params.about.events]]
+      img = "SenzaParole_26_5_18_despisa.jpg"
+      date = "26 maggio 2018"
+      title = "[Festa delle autoproduzioni](https://www.facebook.com/events/2044153592505113/)"
+      description = "_SenzaParole_ al Mercato contadino di Pisa in piazza Martiri con [eigenLab](https://eigenlab.org)."
+
+    [[params.about.events]]
       img = "SenzaParole_1113_08_17_FaroScoglitti.png"
       date = "11-13 agosto 2017"
-      title = "[Senza parole al piccolo Museo del Mare Faro - Scoglitti](https://www.facebook.com/events/397455927335551)"
-      description = "Terza mostra della serie di illustrazioni, prima in Sicilia."
+      title = "[Piccolo Museo del Mare Faro - Scoglitti](https://www.facebook.com/events/397455927335551)"
+      description = "Terza mostra della serie di illustrazioni _SenzaParole_, prima in Sicilia."
 
     [[params.about.events]]
       img = "SenzaParole_19_5_17_exploit.png"
       date = "19 - 25 maggio 2017"
-      title = "[Senza parole @exploit - Pisa](https://www.facebook.com/events/1951071915122550)"
-      description = "Seconda mostra della serie di illustrazioni _[Senza Parole](SenzaParole/)_ ad [exploit](https://exploitpisa.org) con musica."
+      title = "[Senza parole - Pisa #2](https://www.facebook.com/events/1951071915122550)"
+      description = "Seconda mostra della serie di illustrazioni _[Senza Parole](SenzaParole/)_ ad [exploit](https://exploitpisa.org)."
 
     [[params.about.events]]
       img = "SenzaParole_7_4_16_exploit.jpg"
       date = "7 aprile 2016"
-      title = "[Senza parole @exploit - Pisa](https://www.facebook.com/events/1592724811018450)"
+      title = "[Senza parole - Pisa](https://www.facebook.com/events/1592724811018450)"
       description = "Prima mostra della serie di illustrazioni _[Senza Parole](SenzaParole/)_ ad [exploit](https://exploitpisa.org) con aperitivo e concerto di [Lorenzo Niccolini](https://www.facebook.com/circolo.pisano)."
 
 

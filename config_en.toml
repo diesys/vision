@@ -95,6 +95,24 @@ publishdir = "public/en"
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
+      img = "SenzaParole_29_6_18_serafini.jpg"
+      date = "29 june 2018"
+      title = "[Senza parole in university](https://www.facebook.com/events/397455927335551)"
+      description = "Partecipation and exposition of SenzaParole at 'arte in università'."
+
+    [[params.about.events]]
+      img = "SenzaParole_17_6_18_nicaragua.jpg"
+      date = "17 june 2018"
+      title = "[Senza parole at Nicaragua](https://www.facebook.com/events/397455927335551)"
+      description = "Partecipation at local market Nicaragua in Livorno."
+
+    [[params.about.events]]
+      img = "SenzaParole_26_5_18_despisa.jpg"
+      date = "26 may 2018"
+      title = "[Senza parole at autoproductions' feast](https://www.facebook.com/events/2044153592505113/)"
+      description = "Exposition with 'Mercato Contadino di Pisa' in Martiri square."
+
+    [[params.about.events]]
       img = "SenzaParole_1113_08_17_FaroScoglitti.png"
       date = "11-13 agust 2017"
       title = "[Senza parole at piccolo Museo del Mare Faro - Scoglitti](https://www.facebook.com/events/397455927335551)"
