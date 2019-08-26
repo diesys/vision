@@ -96,9 +96,15 @@ publishdir = "public/en"
     # Replace them with your own.
     [[params.about.events]]
       img = "SenzaParole_29_6_18_serafini.jpg"
+      date = "5 july 2019"
+      title = "[Senza parole in university](https://www.facebook.com/ArteinUniversita/photos/a.1568226293312438/1575910215877379/)"
+      description = "Partecipation and exposition of SenzaParole at 'arte in università' XII edition."
+
+    [[params.about.events]]
+      img = "SenzaParole_29_6_18_serafini.jpg"
       date = "29 june 2018"
       title = "[Senza parole in university](https://www.facebook.com/events/397455927335551)"
-      description = "Partecipation and exposition of SenzaParole at 'arte in università'."
+      description = "Partecipation and exposition of SenzaParole at 'arte in università'. XI edition."
 
     [[params.about.events]]
       img = "SenzaParole_17_6_18_nicaragua.jpg"

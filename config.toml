@@ -1,6 +1,6 @@
 # Site settings
 title = "Vision - FlowIn.Space"
-baseurl = "http://flowin.space/vision"
+baseurl = "https://flowin.space/vision"
 theme = "hugo-agency-theme"
 languageCode = "it-IT"
 
@@ -69,7 +69,7 @@ languageCode = "it-IT"
       weight = 1
 
     [[menu.postpend]]
-      url = "http://flowin.space"
+      url = "https://flowin.space"
       name = "FlowIn.Space"
       weight = 2
 
@@ -94,10 +94,17 @@ languageCode = "it-IT"
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
+
+     [[params.about.events]]
+      img = "SenzaParole_29_6_18_serafini.jpg"
+      date = "5 luglio 2019"
+      title = "[Arte in Università XII](https://www.facebook.com/ArteinUniversita/photos/a.1568226293312438/1575910215877379/)"
+      description = "_SenzaParole_ alla XII edizione di _Arte in Università_ dell'[aula R](https://aulaerre.noblogs.org), Pisa."
+
     [[params.about.events]]
       img = "SenzaParole_29_6_18_serafini.jpg"
       date = "29 giugno 2018"
-      title = "[Arte in Università](https://www.facebook.com/events/397455927335551)"
+      title = "[Arte in Università XI](https://www.facebook.com/events/397455927335551)"
       description = "_SenzaParole_ alla XI edizione di _Arte in Università_ dell'[aula R](https://aulaerre.noblogs.org) in via Serafini, Pisa."
 
     [[params.about.events]]
