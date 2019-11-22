@@ -96,6 +96,12 @@ languageCode = "it-IT"
     # Replace them with your own.
 
      [[params.about.events]]
+      img = "SenzaParole_2329_11_19_hugmilano.png"
+      date = "23-29 novembre 2019"
+      title = "[Brilla Speciale Milano Music Week-Indie Beat Generation](https://www.facebook.com/events/1289548541252032/)"
+      description = "_SenzaParole_ all'[_hug_](https://www.facebook.com/HugMilano) per la [_Music Week_](https://www.milanomusicweek.it), Milano."
+
+     [[params.about.events]]
       img = "SenzaParole_29_6_18_serafini.jpg"
       date = "5 luglio 2019"
       title = "[Arte in Università XII](https://www.facebook.com/ArteinUniversita/photos/a.1568226293312438/1575910215877379/)"

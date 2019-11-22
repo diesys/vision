@@ -94,6 +94,13 @@ publishdir = "public/en"
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
+
+    [[params.about.events]]
+      img = "SenzaParole_2329_11_19_hugmilano.png"
+      date = "23-29 november 2019"
+      title = "[Brilla Speciale Milano Music Week-Indie Beat Generation](https://www.facebook.com/events/1289548541252032/)"
+      description = "_SenzaParole_ at [_hug_](https://www.facebook.com/HugMilano) for [_Milano Music Week_](https://www.milanomusicweek.it), Milano."
+
     [[params.about.events]]
       img = "SenzaParole_29_6_18_serafini.jpg"
       date = "5 july 2019"
