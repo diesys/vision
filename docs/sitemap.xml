@@ -3,21 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://flowin.space/vision/senzaparole/</loc>
+    <loc>./senzaparole/</loc>
     <lastmod>2017-05-02T21:55:18+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://flowin.space/vision/</loc>
-    <lastmod>2017-05-02T21:55:18+02:00</lastmod>
+    <loc>./categories/</loc>
   </url>
   
   <url>
-    <loc>https://flowin.space/vision/categories/</loc>
+    <loc>./tags/</loc>
   </url>
   
   <url>
-    <loc>https://flowin.space/vision/tags/</loc>
+    <loc>./</loc>
   </url>
   
 </urlset>
