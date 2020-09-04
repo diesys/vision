@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://flowin.space/vision/senzaparole/</loc>
+    <lastmod>2017-05-02T21:55:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://flowin.space/vision/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://flowin.space/vision/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://flowin.space/vision/</loc>
+    <lastmod>2017-05-02T21:55:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
