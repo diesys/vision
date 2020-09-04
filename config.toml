@@ -47,7 +47,8 @@ languageCode = "it-IT"
   [params.navigation]
     brand = ".vision"
     # Optional logo as brand stored in img/
-    logo = "logo.svg"
+    # logo = "logo.svg"
+    logo = "logo.png"
     about = "cos'è vision"
     portfolio = "galleria"
     # contact = "contatta"
