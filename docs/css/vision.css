@@ -163,7 +163,7 @@ section.bg-darkest-gray {
 
 .navbar-brand>img {
    transition: all 1s .1s;
-   border-radius: 100%;
+   /* border-radius: 100%; */
 }
 
 .navbar-brand>img:hover, .navbar-brand>img:focus {
